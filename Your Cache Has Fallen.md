@@ -37,7 +37,7 @@
       - provide response for a dedicated user only
     - Client-side and server-side caches A.K.A CNS, proxy cache
       - provide response for a multiple users
-    - ![Screen Shot 2020-08-17 at 3.26.14 AM](/Users/janghanbin/Desktop/Screenshot/Screen Shot 2020-08-17 at 3.26.14 AM.png)
+    - ![Screen Shot 2020-08-17 at 3.26.14 AM](./Screen Shot 2020-08-17 at 3.26.14 AM.png)
     
   - Defined in RFC 7234
   - `GET` method can stored as cache even no explicit caching directive is present in a response implicitly 
@@ -114,7 +114,7 @@
   - REST-based web service에서는 GET, POST, DELETE, PUT, PATCH method를 지원해야 하나, 어떤 intermediate system (e.g., proxies, load balancer, caches or firewall) 에서는 GET, POST만 지원하는 경우도 있음. 
   - 위의 경우에 호환을 위해서 `X-HTTPMethod-Override, X-HTTP-Method, X-Method-Override` 등을 사용함 
   - 이 헤더들은 보통 intermediate system으로 전달됨
-  - ![Screen Shot 2020-08-17 at 2.22.46 AM](/Users/janghanbin/Library/Application Support/typora-user-images/Screen Shot 2020-08-17 at 2.22.46 AM.png)
+  - ![Screen Shot 2020-08-17 at 2.22.46 AM](./Screen Shot 2020-08-17 at 2.22.46 AM.png)
 
 - HTTP Header Oversize Attack
   - request header의 size limit이 표준으로 정의되어 있지 않음
