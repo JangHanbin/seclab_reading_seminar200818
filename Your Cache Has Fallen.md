@@ -37,7 +37,7 @@
       - provide response for a dedicated user only
     - Client-side and server-side caches A.K.A CNS, proxy cache
       - provide response for a multiple users
-    - ![Screen Shot 2020-08-17 at 3.26.14 AM](./Screen Shot 2020-08-17 at 3.26.14 AM.png)
+    - ![cache_proxies](./cache_proxies.png)
     
   - Defined in RFC 7234
   - `GET` method can stored as cache even no explicit caching directive is present in a response implicitly 
